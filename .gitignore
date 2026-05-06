@@ -25,3 +25,7 @@ Thumbs.db
 
 *.ps1
 plan.uml
+
+.deploy/
+*.sql
+*.tar.gz
