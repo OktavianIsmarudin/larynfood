@@ -337,9 +337,9 @@
                         </div>
                         @endif
 
-                        <div class="product-price-label">Mulai dari</div>
+                        <div class="product-price-label">Harga</div>
                         <div class="product-price">
-                            Rp{{ number_format($product->harga_jual_per_pcs ?? $product->harga_jual, 0, ',', '.') }}
+                            Rp{{ number_format($product->harga_jual, 0, ',', '.') }} <span style="font-size: 14px; font-weight: normal; color: #6C757D;">/ paket</span>
                         </div>
 
                         <div class="product-badges">
